@@ -56,6 +56,17 @@
 	margin-left: 60px;
 }
 
+@media (max-width: 1000px) {
+   #header .main {
+   	flex-direction: column;
+   }
+
+   .main .content {
+   	width: 100%;
+   	margin-left: 10px;
+   }
+}
+
 .brands .container {
          display: flex;
          flex-direction: column;
@@ -69,6 +80,14 @@
 	width: 90px;
 	height: 90px;
 	margin: 20px;
+}
+
+@media (max-width: 1000px) {
+   .brands .container #new{
+       display: flex;
+       flex-direction: column;
+       padding-bottom: 20px;
+   }
 }
 
 .features .container {
@@ -92,6 +111,12 @@
 	width: 350px;
 }
 
+@media (max-width: 1000px){
+.features .container {
+	flex-direction: column;
+}
+
+}
 .content #red i {
     color: red;
     height: 47px;
@@ -152,6 +177,20 @@
 	margin-top: 45px;
 }
 
+@media (max-width: 1000px) {
+
+	.jackpots .container {
+	   flex-direction: column;
+	  }
+
+	.jackpots .container #main {
+		border-right: none;
+		border-bottom: 2px solid darkgray;
+		padding-bottom: 20px;
+		padding-left: 10px;
+	}
+}
+
 .benefits .container {
 	display: flex;
 	padding: 50px 100px;
@@ -165,6 +204,12 @@
 	background-color: #FFE5E5;
 	border-radius: 50%;
 	margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+	.benefits .container {
+		flex-direction: column;
+	}
 }
 
 .benefits .red h4 {
@@ -220,6 +265,17 @@
 	margin-left: 125px;
 }
 
+@media (max-width: 1000px) {
+   .code .container {
+   	flex-direction: column;
+   }
+
+   .code img {
+   	width: 250px;
+   	height: 300px;
+   }
+}
+
 .code h3 {
 	font-weight: 900;
 	font-size: 38px;
@@ -266,6 +322,12 @@
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: 150px;
+}
+
+@media (max-width: 1000px) {
+	.choose .grid {
+		margin-left: 85px;
+	}
 }
 
 .choose .grid div {
@@ -361,6 +423,21 @@ hr {
 	margin-left: 30px;
 }
 
+@media (max-width: 1000px) {
+	.ultimate .container {
+		flex-direction: column;
+	}
+
+	.ultimate .sub {
+		flex-direction: column;
+	}
+
+	.ultimate img {
+		margin-left: -20px;
+		margin-bottom: 40px;
+	}
+}
+
 .charges .container {
 	display: flex;
 	flex-direction: column;
@@ -393,6 +470,21 @@ hr {
    border: 1px solid #BCB7B7;
    border-radius: 500px;
    margin-top: 30px;
+}
+
+@media (max-width: 1000px) {
+   .charges .container .plans {
+   	flex-direction: column;
+   }
+
+   .charges #main {
+   	width: 250px;
+   }
+
+   .charges h3 {
+   	width: 270px;
+   	margin-top: 20px;
+   }
 }
 
 .charges #blue {
@@ -457,6 +549,21 @@ hr {
 	margin-bottom: 20px;
 }
 
+@media (max-width: 1000px) {
+    .network {
+    	flex-direction: column;
+    }
+
+    .network #image {
+    	width: 100%;
+    	height: 240px;
+    }
+
+    .network .content #main, .network .content #other {
+    	width: 50%;
+    }
+}
+
 .network .content {
 	margin-top: 50px;
 	margin-left: 70px;
@@ -497,7 +604,22 @@ hr {
 }
 
 .network #left{
-   margin-left: 200px;
+   margin-left: 130px;
+}
+
+@media (max-width: 1000px) {
+    .network {
+    	flex-direction: column;
+    }
+
+    .network #image {
+    	width: 100%;
+    	height: 240px;
+    }
+
+    .network .content #main, .network .content #other {
+    	width: 50%;
+    }
 }
 
 .faq {
@@ -527,6 +649,24 @@ hr {
   background-color: #EDEBF7;
   border-radius: 5px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 1000px) {
+	.faq div {
+		width: 90%;
+	}
+
+	.faq i {
+		display: none;
+	}
+
+	.faq #main {
+		width: 80%;
+	}
+
+	.faq h3 {
+		width: 90%;
+	}
 }
 
 .faq div h5 {
@@ -568,6 +708,20 @@ hr {
 .download .main p {
 	width: 500px;
 	font-size: 13px;
+}
+
+@media (max-width: 1000px) {
+    .download {
+    	flex-direction: column;
+    }
+
+    .download #pic {
+    	margin-top: 15px;
+    }
+
+    .download .main p {
+        width: 80%;
+    }
 }
 
 footer {
