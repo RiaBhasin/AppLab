@@ -65,6 +65,12 @@
    	width: 100%;
    	margin-left: 10px;
    }
+
+   .main img {
+   	 width: 80%
+   	 height: 300px;
+   	 margin-left: 10px;
+   }
 }
 
 .brands .container {
@@ -83,7 +89,7 @@
 }
 
 @media (max-width: 1000px) {
-   .brands .container #new{
+   .brands .container #new {
        display: flex;
        flex-direction: column;
        padding-bottom: 20px;
@@ -112,9 +118,16 @@
 }
 
 @media (max-width: 1000px){
-.features .container {
-	flex-direction: column;
-}
+   .features .container {
+	 flex-direction: column;
+    }
+   
+   .features img {
+   	height: 300px;
+   	width: 80%;
+   	margin: 10px 10px;
+   }
+
 
 }
 .content #red i {
@@ -188,6 +201,12 @@
 		border-bottom: 2px solid darkgray;
 		padding-bottom: 20px;
 		padding-left: 10px;
+		width: 80%;
+	}
+
+	.jackpots .container #other {
+		width: 90%;
+		margin-left: 10px;
 	}
 }
 
@@ -209,6 +228,7 @@
 @media (max-width: 1000px) {
 	.benefits .container {
 		flex-direction: column;
+		margin-left: 10px;
 	}
 }
 
@@ -268,11 +288,17 @@
 @media (max-width: 1000px) {
    .code .container {
    	flex-direction: column;
+   	margin-left: 10px;
    }
 
    .code img {
-   	width: 250px;
+   	width: 80%;
    	height: 300px;
+   	margin-left: 20px;
+   }
+
+   .code .container div {
+   	margin-left: 10px;
    }
 }
 
@@ -326,7 +352,7 @@
 
 @media (max-width: 1000px) {
 	.choose .grid {
-		margin-left: 85px;
+		margin-left: 15%;
 	}
 }
 
@@ -717,6 +743,7 @@ hr {
 
     .download #pic {
     	margin-top: 15px;
+    	width: 100%;
     }
 
     .download .main p {
